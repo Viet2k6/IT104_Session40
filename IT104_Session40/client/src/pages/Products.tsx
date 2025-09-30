@@ -174,7 +174,7 @@ export default function Products() {
     const CLOUD_NAME = import.meta.env.VITE_CLOUD_NAME;
     const UPLOAD_PRESET = import.meta.env.VITE_UPLOAD_PRESET;
 
-    const url = `https://api.cloudinary.com/v1_1/${CLOUD_NAME}/image/upload`;
+    const url = `https://api.cloudinary.com/v1_1/viet2k6/image/upload`;
 
     const formData = new FormData();
     formData.append("file", file);
@@ -324,3 +324,4 @@ export default function Products() {
     </div>
   );
 }
+
